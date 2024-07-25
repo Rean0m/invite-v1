@@ -1,0 +1,133 @@
+
+body {
+    margin: 0;
+    background-color: #f0f0f0; /* Приклад фону сторінки */
+}
+
+h1 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 5;
+}
+
+h2 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 5;
+    font-size: 1.6em;
+}
+
+.container {
+    max-width: 600px;
+    margin:auto;
+    padding: 20px;
+    
+}
+
+.image1 {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timing table {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6em;
+    text-align: center; 
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+th, td {
+    font-weight: normal;
+    padding: 0;
+    /* text-align: left; */
+}
+
+.dress-code {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px; /* Ширина контейнера, може бути змінена відповідно до розмірів кіл і відступів */
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5 {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db; /* Приклад початкового забарвлення */
+    border-radius: 50%;
+}
+
+.circle1 {
+    background-color: #e6dcd3;
+}
+.circle2 {
+    background-color: #b4a79e;
+}
+.circle3 {
+    background-color: #bda18c;
+}
+.circle4 {
+    background-color: #3f352c;
+}
+.circle5 {
+    background-color: #000000;
+}
+
+        
+.footer {
+    margin-top: 20px;
+}
+
+.imageLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ul li {
+    padding-left: 60px; Відступ для розміщення зображення
+    background: url(A&S.png) no-repeat left center; Додавання зображення як фон
+    background-size: 30px 14px; Розмір зображення
+} */
